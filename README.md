@@ -31,6 +31,7 @@ pip install -r requirements.txt
 #Запустите бота
 python bot.py
 
+#UML-диаграммы проекта SupportDawn (Mermaid)
 <img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/801dbccb-5970-4f8d-b764-e07add3a5dc8" />
 <img width="1858" height="1014" alt="{DECE3F57-E8E8-43E2-AAD2-D2ED41E44273}" src="https://github.com/user-attachments/assets/8e89f531-1ed5-481d-b991-61f28f742457" />
 
