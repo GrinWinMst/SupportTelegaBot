@@ -32,6 +32,7 @@ pip install -r requirements.txt
 python bot.py
 
 <img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/801dbccb-5970-4f8d-b764-e07add3a5dc8" />
-<img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/eae4db31-b061-41c7-84b1-3a35d6bc3d7e" />
+<img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/2c2c945d-a83b-439f-999b-e6a99a32e36f" />
+
 
 
