@@ -31,29 +31,7 @@ pip install -r requirements.txt
 #Запустите бота
 python bot.py
 
-useCaseDiagram
-    actor Player as "Игрок"
-    actor Support as "Саппорт"
-    actor Admin as "Администратор"
+<img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/801dbccb-5970-4f8d-b764-e07add3a5dc8" />
+<img width="1903" height="949" alt="{CB46E461-0190-4FA3-A959-483EDB2F2D3D}" src="https://github.com/user-attachments/assets/eae4db31-b061-41c7-84b1-3a35d6bc3d7e" />
 
-    package "Система SupportDawn" {
-        usecase UC1 as "Создать тикет"
-        usecase UC2 as "Получить ежедневную награду"
-        usecase UC3 as "Ответить на тикет"
-        usecase UC4 as "Закрыть тикет"
-        usecase UC5 as "Забанить/Разбанить игрока"
-        usecase UC6 as "Просмотр логов"
-        usecase UC7 as "RCON команды"
-    }
 
-    Player --> UC1
-    Player --> UC2
-    
-    Support --> UC3
-    Support --> UC4
-    
-    Admin --> UC3
-    Admin --> UC4
-    Admin --> UC5
-    Admin --> UC6
-    Admin --> UC7
