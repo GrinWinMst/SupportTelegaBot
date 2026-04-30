@@ -30,3 +30,30 @@ SupportDawn — это Telegram-бот, предназначенный для а
 pip install -r requirements.txt
 #Запустите бота
 python bot.py
+
+useCaseDiagram
+    actor Player as "Игрок"
+    actor Support as "Саппорт"
+    actor Admin as "Администратор"
+
+    package "Система SupportDawn" {
+        usecase UC1 as "Создать тикет"
+        usecase UC2 as "Получить ежедневную награду"
+        usecase UC3 as "Ответить на тикет"
+        usecase UC4 as "Закрыть тикет"
+        usecase UC5 as "Забанить/Разбанить игрока"
+        usecase UC6 as "Просмотр логов"
+        usecase UC7 as "RCON команды"
+    }
+
+    Player --> UC1
+    Player --> UC2
+    
+    Support --> UC3
+    Support --> UC4
+    
+    Admin --> UC3
+    Admin --> UC4
+    Admin --> UC5
+    Admin --> UC6
+    Admin --> UC7
